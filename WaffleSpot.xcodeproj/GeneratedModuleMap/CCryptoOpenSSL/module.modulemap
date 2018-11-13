@@ -1,0 +1,4 @@
+module CCryptoOpenSSL {
+    umbrella "/Users/dsanchezpc/Documents/Vapor/WaffleSpot/.build/checkouts/crypto.git-7222222894612997564/Sources/CCryptoOpenSSL/include"
+    export *
+}
