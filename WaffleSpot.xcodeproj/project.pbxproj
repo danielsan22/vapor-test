@@ -5321,7 +5321,6 @@
 		OBJ_167 /* SQLCreateTableBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLCreateTableBuilder.swift; sourceTree = "<group>"; };
 		OBJ_168 /* SQLDataType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLDataType.swift; sourceTree = "<group>"; };
 		OBJ_169 /* SQLDefaultLiteral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLDefaultLiteral.swift; sourceTree = "<group>"; };
-		OBJ_17 /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Models; sourceTree = SOURCE_ROOT; };
 		OBJ_170 /* SQLDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLDelete.swift; sourceTree = "<group>"; };
 		OBJ_171 /* SQLDeleteBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLDeleteBuilder.swift; sourceTree = "<group>"; };
 		OBJ_172 /* SQLDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLDirection.swift; sourceTree = "<group>"; };
@@ -7951,7 +7950,6 @@
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				OBJ_14 /* Tests */,
-				OBJ_17 /* Models */,
 				OBJ_18 /* Public */,
 				OBJ_19 /* Resources */,
 				OBJ_20 /* Dependencies */,
