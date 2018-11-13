@@ -21,7 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		6F414156219B833700F97B2A /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F414155219B833600F97B2A /* Message.swift */; };
+		6F414158219B940B00F97B2A /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F414157219B940B00F97B2A /* Message.swift */; };
 		OBJ_1075 /* AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* AppTests.swift */; };
 		OBJ_1077 /* App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "WaffleSpot::App::Product" /* App.framework */; };
 		OBJ_1078 /* Leaf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Leaf::Leaf::Product" /* Leaf.framework */; };
@@ -5236,7 +5236,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6F414155219B833600F97B2A /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		6F414157219B940B00F97B2A /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		"Console::Command::Product" /* Command.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Command.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Console::Console::Product" /* Console.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Console.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Console::Logging::Product" /* Logging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Logging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -6879,6 +6879,7 @@
 				OBJ_11 /* boot.swift */,
 				OBJ_12 /* configure.swift */,
 				OBJ_13 /* routes.swift */,
+				6F414157219B940B00F97B2A /* Message.swift */,
 			);
 			name = App;
 			path = Sources/App;
@@ -8589,7 +8590,6 @@
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				6F414155219B833600F97B2A /* Message.swift */,
 				OBJ_8 /* Run */,
 				OBJ_10 /* App */,
 			);
@@ -12079,7 +12079,7 @@
 			buildActionMask = 0;
 			files = (
 				OBJ_934 /* boot.swift in Sources */,
-				6F414156219B833700F97B2A /* Message.swift in Sources */,
+				6F414158219B940B00F97B2A /* Message.swift in Sources */,
 				OBJ_935 /* configure.swift in Sources */,
 				OBJ_936 /* routes.swift in Sources */,
 			);
