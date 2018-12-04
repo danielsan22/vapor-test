@@ -7301,6 +7301,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F1DCD6F21B72A630027DA20 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6F1DCD7021B72A6D0027DA20 /* API */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6F1DCD7021B72A6D0027DA20 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6FCBF6AF21B5E8F300A37D6C /* TodoController.swift */,
+				6F440CFD21B59F6300296FBF /* UserController.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6F1DCD7121B72AA30027DA20 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6F1DCD7221B72AAB0027DA20 /* Entities */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6F1DCD7221B72AAB0027DA20 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* Message.swift */,
+				6F440CFB21B59B4300296FBF /* User.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		6F1DCD7321B72ACF0027DA20 /* Setup */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_10 /* boot.swift */,
+				OBJ_11 /* configure.swift */,
+				OBJ_12 /* routes.swift */,
+			);
+			path = Setup;
+			sourceTree = "<group>";
+		};
 		OBJ_110 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
@@ -9036,8 +9080,10 @@
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_8 /* App */,
+				6F1DCD6F21B72A630027DA20 /* Controllers */,
+				6F1DCD7121B72AA30027DA20 /* Models */,
 				OBJ_13 /* Run */,
+				6F1DCD7321B72ACF0027DA20 /* Setup */,
 			);
 			name = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -9306,21 +9352,6 @@
 			);
 			name = NIOHTTP1;
 			path = ".build/checkouts/swift-nio.git-9093764363068665170/Sources/NIOHTTP1";
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_8 /* App */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_9 /* Message.swift */,
-				OBJ_10 /* boot.swift */,
-				OBJ_11 /* configure.swift */,
-				OBJ_12 /* routes.swift */,
-				6F440CFB21B59B4300296FBF /* User.swift */,
-				6F440CFD21B59F6300296FBF /* UserController.swift */,
-				6FCBF6AF21B5E8F300A37D6C /* TodoController.swift */,
-			);
-			name = App;
-			path = Sources/App;
 			sourceTree = SOURCE_ROOT;
 		};
 		OBJ_801 /* CNIOSHA1 */ = {
