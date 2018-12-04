@@ -13,3 +13,6 @@ It’s my hope that the official Vapor project will add a template similar to th
 If you have already installed the Vapor toolbox, you can create a new Vapor project from this repo using the following command:
 
     vapor new MyProject --template=twostraws/vapor-clean
+
+This project was based on this article:
+https://medium.com/rocket-fuel/basic-authentication-with-vapor-3-c074376256c3

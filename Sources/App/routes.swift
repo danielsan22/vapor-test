@@ -1,14 +1,18 @@
 import Routing
 import Vapor
+import Authentication
+import Crypto
 
 
 /// Register your application's routes here.
 ///
 /// [Learn More →](https://docs.vapor.codes/3.0/getting-started/structure/#routesswift)
 public func routes(_ router: Router) throws {
+    /*
     router.get("hello") { req in
         return "Hello, world!"
     }
+    
     router.post("send") { (req) -> Future<Response> in
         let username: String = try req.content.syncGet(at: "username")
         let content: String = try req.content.syncGet(at: "content")
@@ -28,4 +32,13 @@ public func routes(_ router: Router) throws {
     router.get("list") { req -> Future<[Message]> in
         return try Message.query(on: req).sort(\Message.date, .descending).all()
     }
+ */
+    
+    let todoController = TodoController()
+    try todoController.boot(router: router)
+    
+    
+    let userRouteController = UserController()
+    try userRouteController.boot(router: router)
+    
 }
